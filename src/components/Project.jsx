@@ -22,6 +22,8 @@ function Project(props) {
 				<a className="cta-buttons-project" href={props.repo}>
 					Repo
 				</a>
+				<br />
+				<br />
 			</article>
 		</div>
 	);

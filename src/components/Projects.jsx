@@ -22,7 +22,7 @@ function createProject(props) {
 
 const Projects = (props) => {
 	return (
-		<section id="projects" className="projects">
+		<section id="project-list" className="projects element">
 			<h2 className="section-titles">Projects</h2>
 			{projectData.map(createProject)}
 		</section>
