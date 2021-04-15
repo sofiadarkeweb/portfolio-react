@@ -1,13 +1,13 @@
 import React from "react";
 // import Hamburger from "hamburger-react";
-import { useState } from "react";
+// import { useState } from "react";
 import { Link } from "react-scroll";
 
 const NavBar = () => {
 	return (
 		<nav className="nav-bar">
 			<Link
-				className="project"
+				className="nav-bar-item"
 				activeClass="active"
 				to="project-list"
 				spy={true}
@@ -17,7 +17,7 @@ const NavBar = () => {
 				projects
 			</Link>
 			<Link
-				className="about"
+				className="nav-bar-item"
 				activeClass="active"
 				to="about-section"
 				spy={true}
@@ -27,7 +27,7 @@ const NavBar = () => {
 				about
 			</Link>
 			<Link
-				className="contact"
+				className="nav-bar-item"
 				activeClass="active"
 				to="contact-section"
 				spy={true}
