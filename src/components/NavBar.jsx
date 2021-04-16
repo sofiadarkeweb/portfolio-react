@@ -36,6 +36,16 @@ const NavBar = () => {
 			>
 				contact
 			</Link>
+			<Link
+				className="nav-bar-item"
+				activeClass="active"
+				to="hero-section"
+				spy={true}
+				smooth={true}
+				duration={1000}
+			>
+				Top
+			</Link>
 		</nav>
 	);
 	// const [isOpen, setOpen] = useState(false);

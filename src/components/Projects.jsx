@@ -13,9 +13,6 @@ function createProject(props) {
 			imgalt={props.imgalt}
 			url={props.url}
 			repo={props.repo}
-			// img={contact.imgURL}
-			// tel={contact.phone}
-			// email={contact.email}
 		/>
 	);
 }

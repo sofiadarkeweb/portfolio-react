@@ -3,7 +3,7 @@ import NavBar from "./NavBar";
 
 const Hero = () => {
 	return (
-		<header className="hero">
+		<header className="hero" id="hero-section">
 			<NavBar />
 			<img
 				className="smiley"
