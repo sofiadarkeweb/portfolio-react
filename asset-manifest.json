@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/sofiadarkeweb/portfolio-react/static/css/main.f6ea11fe.chunk.css",
-    "main.js": "/sofiadarkeweb/portfolio-react/static/js/main.144b0559.chunk.js",
-    "main.js.map": "/sofiadarkeweb/portfolio-react/static/js/main.144b0559.chunk.js.map",
-    "runtime-main.js": "/sofiadarkeweb/portfolio-react/static/js/runtime-main.13cc64d8.js",
-    "runtime-main.js.map": "/sofiadarkeweb/portfolio-react/static/js/runtime-main.13cc64d8.js.map",
-    "static/js/2.aabea7c6.chunk.js": "/sofiadarkeweb/portfolio-react/static/js/2.aabea7c6.chunk.js",
-    "static/js/2.aabea7c6.chunk.js.map": "/sofiadarkeweb/portfolio-react/static/js/2.aabea7c6.chunk.js.map",
-    "static/js/3.469b63f7.chunk.js": "/sofiadarkeweb/portfolio-react/static/js/3.469b63f7.chunk.js",
-    "static/js/3.469b63f7.chunk.js.map": "/sofiadarkeweb/portfolio-react/static/js/3.469b63f7.chunk.js.map",
-    "index.html": "/sofiadarkeweb/portfolio-react/index.html",
-    "static/css/main.f6ea11fe.chunk.css.map": "/sofiadarkeweb/portfolio-react/static/css/main.f6ea11fe.chunk.css.map",
-    "static/js/2.aabea7c6.chunk.js.LICENSE.txt": "/sofiadarkeweb/portfolio-react/static/js/2.aabea7c6.chunk.js.LICENSE.txt"
+    "main.css": "/portfolio-react/static/css/main.f6ea11fe.chunk.css",
+    "main.js": "/portfolio-react/static/js/main.144b0559.chunk.js",
+    "main.js.map": "/portfolio-react/static/js/main.144b0559.chunk.js.map",
+    "runtime-main.js": "/portfolio-react/static/js/runtime-main.e3196951.js",
+    "runtime-main.js.map": "/portfolio-react/static/js/runtime-main.e3196951.js.map",
+    "static/js/2.aabea7c6.chunk.js": "/portfolio-react/static/js/2.aabea7c6.chunk.js",
+    "static/js/2.aabea7c6.chunk.js.map": "/portfolio-react/static/js/2.aabea7c6.chunk.js.map",
+    "static/js/3.469b63f7.chunk.js": "/portfolio-react/static/js/3.469b63f7.chunk.js",
+    "static/js/3.469b63f7.chunk.js.map": "/portfolio-react/static/js/3.469b63f7.chunk.js.map",
+    "index.html": "/portfolio-react/index.html",
+    "static/css/main.f6ea11fe.chunk.css.map": "/portfolio-react/static/css/main.f6ea11fe.chunk.css.map",
+    "static/js/2.aabea7c6.chunk.js.LICENSE.txt": "/portfolio-react/static/js/2.aabea7c6.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.13cc64d8.js",
+    "static/js/runtime-main.e3196951.js",
     "static/js/2.aabea7c6.chunk.js",
     "static/css/main.f6ea11fe.chunk.css",
     "static/js/main.144b0559.chunk.js"
