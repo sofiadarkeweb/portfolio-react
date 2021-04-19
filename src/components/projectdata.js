@@ -13,6 +13,16 @@ const projectData = [
 		repo: "https://github.com/sofiadarkeweb/open-shop-x-fun-crew.github.io", // if no repo, the button will not show up
 	},
 	{
+		id: "5",
+		img: "media/project5.png",
+		imgalt: "Pomodoro website",
+		title: "PomPom-pomodoro",
+		info: `A pomodoro work planning app using create-react-app`,
+		info2: "React | NPM-packages ",
+		url: "https://sofiadarkeweb.github.io/pompom/",
+		repo: "https://github.com/sofiadarkeweb/pompom", // if no repo, the button will not show up
+	},
+	{
 		id: "2",
 		img: "media/project3.png",
 		imgalt: "Plantfeed website",
