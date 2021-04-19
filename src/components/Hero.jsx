@@ -8,7 +8,7 @@ const Hero = () => {
 			<img
 				className="smiley"
 				id="rotate"
-				src="/media/smiley.svg"
+				src={"media/smiley.svg"}
 				alt="smiley-animation"
 			/>
 			<div className="hero-text">

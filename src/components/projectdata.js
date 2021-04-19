@@ -1,4 +1,4 @@
-// import project1 from "./media/project1.png";
+// import project1 from "../public/media/project1.png";
 
 // PROJECTS DATA
 const projectData = [

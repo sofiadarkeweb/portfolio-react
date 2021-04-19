@@ -6,7 +6,7 @@ const Contact = () => {
 			<img
 				className="rainbow"
 				id="wiggle"
-				src="/media/rainbow.svg"
+				src={"media/rainbow.svg"}
 				alt="rainbow-animation"
 			/>
 			<h2 className="section-titles">Contact</h2>
