@@ -248,6 +248,19 @@ article {
 		font-size: 4rem;
 		line-height: 4rem;
 	}
+
+	.project-container {
+		margin: 2rem;
+		margin-top: 2rem;
+		margin-bottom: 2rem;
+		padding: 2rem;
+		display: block;
+	}
+	.project-image {
+		width: 85vw;
+		margin-right: 2rem;
+		margin-bottom: 2rem;
+	}
 }
 
 @media screen and (max-width: 600px) {
@@ -256,14 +269,6 @@ article {
 		margin-top: 5rem;
 		font-size: 3rem;
 		line-height: 3rem;
-	}
-
-	.project-container {
-		margin: 1rem;
-		margin-top: 2rem;
-		margin-bottom: 2rem;
-		padding: 1rem;
-		display: block;
 	}
 
 	.project-image {
