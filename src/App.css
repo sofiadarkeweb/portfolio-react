@@ -277,6 +277,14 @@ article {
 		margin-bottom: 1rem;
 	}
 
+	.project-container {
+		margin: 2rem;
+		margin-top: 2rem;
+		margin-bottom: 2rem;
+		padding: 1rem;
+		display: block;
+	}
+
 	.cta-buttons-project {
 		padding: 0.8rem;
 		margin-right: 1rem;
