@@ -241,6 +241,15 @@ article {
 
 /* MEDIA QUERIES */
 
+@media screen and (max-width: 1000px) {
+	.intro-text {
+		padding: 2rem;
+		margin-top: 3rem;
+		font-size: 4rem;
+		line-height: 4rem;
+	}
+}
+
 @media screen and (max-width: 600px) {
 	.intro-text {
 		padding: 2rem;
@@ -292,5 +301,14 @@ article {
 
 	.contact {
 		margin: 2rem;
+	}
+}
+
+@media screen and (max-width: 374px) {
+	.intro-text {
+		padding: 1.5rem;
+		margin-top: 2.3rem;
+		font-size: 2.5rem;
+		line-height: 2.5rem;
 	}
 }
