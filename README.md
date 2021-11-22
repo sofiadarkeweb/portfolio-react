@@ -5,3 +5,5 @@ This is my portfolio using create-react-app, showcasing some of the projects I'v
 ## Tech stack
 
 React, npm-packages, css-animations etc.
+
+https://sofiadarkeweb.github.io/portfolio-react/
