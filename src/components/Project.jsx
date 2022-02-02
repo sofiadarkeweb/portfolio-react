@@ -4,26 +4,24 @@ import React from "react";
 function Project(props) {
 	return (
 		<div className="project-container">
-			<a href={props.url}>
-				<img className="project-image" src={props.img} alt={props.imgalt} />
-			</a>
+			<div className="image-container">
+				<a href={props.url}>
+					<img className="project-image" src={props.img} alt={props.imgalt} />
+				</a>
+			</div>
 
-			<article>
+			<article className="project-info">
 				<h3>{props.name}</h3>
-				<br />
 				<p>{props.info}</p>
-				<br />
 				<p className="tech">{props.info2}</p>
-				<br />
-				<br />
-				<a className="cta-buttons-project" href={props.url}>
-					Website
-				</a>
-				<a className="cta-buttons-project" href={props.repo}>
-					Repo
-				</a>
-				<br />
-				<br />
+				<div>
+					<a className="cta-buttons-project" href={props.url}>
+						Website
+					</a>
+					<a className="cta-buttons-project" href={props.repo}>
+						Repo
+					</a>
+				</div>
 			</article>
 		</div>
 	);

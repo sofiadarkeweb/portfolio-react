@@ -1,4 +1,5 @@
 import React from "react";
+import rainbow from "../media/rainbow.svg";
 
 const Contact = () => {
 	return (
@@ -6,10 +7,10 @@ const Contact = () => {
 			<img
 				className="rainbow"
 				id="wiggle"
-				src={"media/rainbow.svg"}
+				src={rainbow}
 				alt="rainbow-animation"
 			/>
-			<h2 className="section-titles">Contact</h2>
+			{/* <h2 className="section-titles">Contact</h2> */}
 			<h2 className="contact-text">
 				I am open for work, send me an email and let's talk more
 			</h2>

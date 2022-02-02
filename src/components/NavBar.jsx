@@ -44,7 +44,7 @@ const NavBar = () => {
 				smooth={true}
 				duration={1000}
 			>
-				Top
+				smiley
 			</Link>
 		</nav>
 	);
