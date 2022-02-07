@@ -5,7 +5,7 @@ function Project(props) {
 	return (
 		<div className="project-container">
 			<div className="image-container">
-				<a href={props.url}>
+				<a href={props.url} target="blank">
 					<img className="project-image" src={props.img} alt={props.imgalt} />
 				</a>
 			</div>
@@ -15,10 +15,10 @@ function Project(props) {
 				<p>{props.info}</p>
 				<p className="tech">{props.info2}</p>
 				<div>
-					<a className="cta-buttons-project" href={props.url}>
+					<a className="cta-buttons-project" href={props.url} target="blank">
 						Website
 					</a>
-					<a className="cta-buttons-project" href={props.repo}>
+					<a className="cta-buttons-project" href={props.repo} target="blank">
 						Repo
 					</a>
 				</div>
