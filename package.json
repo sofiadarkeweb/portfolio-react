@@ -1,6 +1,6 @@
 {
 	"name": "sofias-react-portfolio",
-	"homepage": "https://sofiadarkeweb.github.io/portfolio-react/",
+	
 	"version": "0.1.0",
 	"private": true,
 	"dependencies": {
