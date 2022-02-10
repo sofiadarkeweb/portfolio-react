@@ -125,7 +125,7 @@ article {
 	cursor: pointer;
 }
 .text-hiding-portrait:hover {
-	color: blue;
+	color: var(--mainColor);
 }
 
 /* BUTTONS */
@@ -247,25 +247,14 @@ article {
 }
 
 .about-text {
-	/* width: 80vw; */
 	text-align: center;
-	/* margin-bottom: 4rem; */
 	padding: 4rem;
-	/* padding-top: 4rem; */
 	font-size: 2rem;
 }
 
 .tech-text {
 	width: 60vw;
 	text-align: center;
-	/* margin-left: 2rem; */
-}
-
-.about-texts {
-	/* display: flex; */
-	/* margin-left: 5rem;
-	margin-right: 5rem; */
-	/* margin-top: 5rem; */
 }
 
 /* CONTACT */
@@ -391,8 +380,6 @@ article {
 
 	.about-texts {
 		display: block;
-		/* margin-left: 1rem;
-		margin-right: 1rem; */
 	}
 
 	.about-text {
@@ -403,8 +390,6 @@ article {
 
 	.tech-text {
 		text-align: center;
-		/* margin-left: 1rem;
-		margin-right: 1rem; */
 	}
 
 	.contact-text {
@@ -417,6 +402,17 @@ article {
 }
 
 @media screen and (max-width: 375px) {
+	.smiley {
+		margin: 0;
+		margin-left: 40%;
+		margin-top: 0;
+		padding: 0;
+		width: 20vw;
+	}
+	.about-text {
+		font-size: 1rem;
+		padding: 2rem;
+	}
 	.intro-text {
 		padding: 1.5rem;
 		margin-top: 2.3rem;
