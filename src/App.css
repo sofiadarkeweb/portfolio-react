@@ -50,6 +50,31 @@
 	font-weight: 700;
 }
 
+.arrow-fixed {
+	position: fixed;
+	width: 100vw;
+	height: 100vh;
+}
+
+.arrow-up {
+	position: fixed;
+	margin-left: 2rem;
+	bottom: 0;
+	width: 1rem;
+	border: solid var(--mainColor);
+	border-width: 0 3px 3px 0;
+	display: inline-block;
+	padding: 1rem;
+	transform: rotate(-135deg);
+	-webkit-transform: rotate(-135deg);
+	cursor: pointer;
+}
+
+.arrow-up:hover {
+	border-width: 0 3.5px 3.5px 0;
+	cursor: pointer;
+}
+
 ul {
 	margin: 0;
 	padding: 0;
@@ -85,6 +110,22 @@ li {
 
 article {
 	margin-left: 1rem;
+}
+
+.portrait {
+	position: absolute;
+	width: 300px;
+	top: 0;
+	left: 100px;
+	filter: sepia(50%);
+	animation: 1s ease-out 0s 1 fadeIn;
+}
+
+.text-hiding-portrait {
+	cursor: pointer;
+}
+.text-hiding-portrait:hover {
+	color: blue;
 }
 
 /* BUTTONS */
@@ -152,6 +193,10 @@ article {
 
 /* PROJECTS */
 
+.projects {
+	padding-top: 4rem;
+}
+
 .project-container {
 	border: 4px black solid;
 	margin: 4rem;
@@ -187,8 +232,12 @@ article {
 /* ABOUT */
 
 .about {
-	margin-top: 10rem;
+	/* margin-top: 10rem; */
 	height: 100vh;
+	width: 100vw;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
 .tech {
@@ -198,18 +247,25 @@ article {
 }
 
 .about-text {
-	width: 60vw;
+	/* width: 80vw; */
+	text-align: center;
+	/* margin-bottom: 4rem; */
+	padding: 4rem;
+	/* padding-top: 4rem; */
+	font-size: 2rem;
 }
 
 .tech-text {
-	margin-left: 2rem;
+	width: 60vw;
+	text-align: center;
+	/* margin-left: 2rem; */
 }
 
 .about-texts {
-	display: flex;
+	/* display: flex; */
 	/* margin-left: 5rem;
 	margin-right: 5rem; */
-	margin-top: 5rem;
+	/* margin-top: 5rem; */
 }
 
 /* CONTACT */
@@ -254,6 +310,15 @@ article {
 	}
 }
 
+@keyframes fadeIn {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
 /* FOOTER */
 
 .footer {
@@ -280,8 +345,9 @@ article {
 
 	.project-info {
 		margin-left: 0rem;
-		width: 80%;
+		width: 100%;
 		position: relative;
+		padding-bottom: 1rem;
 	}
 
 	.image-container {
@@ -301,8 +367,8 @@ article {
 		line-height: 3rem;
 	}
 
-	.tech {
-		/* margin-bottom: 1rem; */
+	.project-info {
+		padding-bottom: 0rem;
 	}
 
 	.project-image {
@@ -319,25 +385,26 @@ article {
 		display: block;
 	}
 
-	.cta-buttons-project {
-		margin-bottom: 6rem;
+	.tech {
+		margin-bottom: 2rem;
 	}
 
 	.about-texts {
 		display: block;
-		margin-left: 1rem;
-		margin-right: 1rem;
+		/* margin-left: 1rem;
+		margin-right: 1rem; */
 	}
 
 	.about-text {
 		width: 90vw;
 		text-align: center;
+		font-size: 1.5rem;
 	}
 
 	.tech-text {
 		text-align: center;
-		margin-left: 1rem;
-		margin-right: 1rem;
+		/* margin-left: 1rem;
+		margin-right: 1rem; */
 	}
 
 	.contact-text {
