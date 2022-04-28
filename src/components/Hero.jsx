@@ -24,9 +24,9 @@ const Hero = () => {
 						onMouseEnter={() => setPortrait(true)}
 						onMouseLeave={() => setPortrait(false)}
 					>
-						Sofia Darke{" "}
+						Sofia Darke
 					</span>
-					, a developer from Stockholm currently studying at Hyper Island.{" "}
+					, a junior developer from Stockholm.
 					{portrait && (
 						<img className="portrait" alt="Sofia Darke" src={sofia}></img>
 					)}

@@ -10,12 +10,9 @@ const Contact = () => {
 				src={rainbow}
 				alt="rainbow-animation"
 			/>
-			{/* <h2 className="section-titles">Contact</h2> */}
-			<h2 className="contact-text">
-				I am open for work, send me an email and let's talk more
-			</h2>
-			<br />
-			<br />
+
+			<h2 className="contact-text">If you wanna talk, send me an email!</h2>
+
 			<a className="cta-buttons" href="mailto:sofia.darke@hyperisland.se">
 				Say Hi!
 			</a>

@@ -50,10 +50,16 @@
 	font-weight: 700;
 }
 
+.karma-link {
+	color: var(--mainColor);
+
+	cursor: pointer;
+}
+
 .arrow-fixed {
 	position: fixed;
 	width: 100vw;
-	height: 100vh;
+	height: 10vh;
 }
 
 .arrow-up {
