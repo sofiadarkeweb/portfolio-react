@@ -8,6 +8,7 @@ const NavBar = () => {
 		<nav className="nav-bar">
 			<Link
 				className="nav-bar-item"
+				href="/about"
 				activeClass="active"
 				to="about-section"
 				spy={true}
@@ -18,6 +19,7 @@ const NavBar = () => {
 			</Link>
 			<Link
 				className="nav-bar-item"
+				href="/work"
 				activeClass="active"
 				to="project-list"
 				spy={true}
@@ -29,6 +31,7 @@ const NavBar = () => {
 
 			<Link
 				className="nav-bar-item"
+				href="/contact"
 				activeClass="active"
 				to="contact-section"
 				spy={true}

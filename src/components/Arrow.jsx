@@ -5,6 +5,7 @@ const Arrow = () => {
 		<div className="arrow-fixed">
 			<Link
 				className="arrow-up"
+				href="/home"
 				activeClass="active"
 				to="hero-section"
 				spy={true}
