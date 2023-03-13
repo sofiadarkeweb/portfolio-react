@@ -26,7 +26,7 @@ const Hero = () => {
 					>
 						Sofia Darke
 					</span>
-					, a junior developer from Stockholm.
+					, a full-stack developer from Stockholm.
 					{portrait && (
 						<img className="portrait" alt="Sofia Darke" src={sofia}></img>
 					)}

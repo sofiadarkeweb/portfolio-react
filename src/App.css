@@ -278,10 +278,15 @@ article {
 	justify-content: center;
 	flex-direction: column;
 	width: 80%;
-	/* margin: 5rem;
-	margin-top: 5rem;
-	margin-bottom: 5rem; */
 	height: 100vh;
+}
+
+.cta-link {
+	text-decoration: none;
+	color: rgb(0, 0, 0);
+}
+.cta-link:hover {
+	text-decoration: underline;
 }
 
 .rainbow {
@@ -385,7 +390,7 @@ article {
 	}
 
 	.about-texts {
-		display: block;
+		display: flex;
 	}
 
 	.about-text {

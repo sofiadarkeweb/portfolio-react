@@ -11,11 +11,19 @@ const Contact = () => {
 				alt="rainbow-animation"
 			/>
 
-			<h2 className="contact-text">If you wanna talk, send me an email!</h2>
-
-			<a className="cta-buttons" href="mailto:sofia.darke@hyperisland.se">
-				Say Hi!
-			</a>
+			<h2 className="contact-text">
+				I'm always up for a chat, contact me on{" "}
+				<a
+					className="cta-link"
+					href="https://www.linkedin.com/in/sofia-darke-1177932b"
+				>
+					LinkedIn
+				</a>{" "}
+				or {"->"}
+				<a className="cta-link" href="mailto:sofia.darke@hyperisland.se">
+					here
+				</a>
+			</h2>
 		</section>
 	);
 };
