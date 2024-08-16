@@ -112,6 +112,7 @@ li {
 	font-size: 5rem;
 	line-height: 5rem;
 	text-align: center;
+	font-weight: 400;
 }
 
 article {
@@ -229,6 +230,7 @@ article {
 	margin-left: 2rem;
 	width: 30%;
 	position: relative;
+	line-height: 1.3rem;
 }
 
 .project-info > h3 {
@@ -261,6 +263,7 @@ article {
 .tech-text {
 	width: 60vw;
 	text-align: center;
+	line-height: 1.5rem;
 }
 
 /* CONTACT */
@@ -269,6 +272,7 @@ article {
 	font-size: 4rem;
 	text-align: center;
 	margin-top: 3rem;
+	font-weight: 400;
 }
 
 .contact {

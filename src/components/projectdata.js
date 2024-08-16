@@ -4,7 +4,7 @@ import project3 from "../media/project3.png";
 import project4 from "../media/project4.png";
 import project5 from "../media/project5.png";
 import moa from "../media/moa.png";
-import ray from "../media/ray.png";
+import ray from "../media/ray4.png";
 import giphy from "../media/giphy.png";
 
 // PROJECTS DATA
@@ -16,7 +16,7 @@ const projectData = [
 		title: "Ray Atelier",
 		info: `Site for interior design company Ray Atelier based in Stockholm. Headless CMS using Next.js with Contentful. Minimalistic typography with the images beeing the star.`,
 		info2: "Next.js | Contentful | Figma",
-		url: "https://ray-atelier.vercel.app/",
+		url: "https://ray-atelier.com/",
 		repo: "https://github.com/sofiadarkeweb/ray-atelier-next", // if no repo, the button will not show up
 	},
 	{
@@ -26,7 +26,7 @@ const projectData = [
 		title: "Moa Hamner",
 		info: `Site for sound designer Moa Hamner. Interactive site with graphics built in A-frame and sound in Tone.js. `,
 		info2: "Create-React-App | A-Frame.js | Tone.js | Contentful | Figma",
-		url: "https://moa-hamner-react.vercel.app/",
+		url: "https://moahamner.se/",
 		repo: "https://github.com/sofiadarkeweb/moa-hamner-react", // if no repo, the button will not show up
 	},
 	{
@@ -70,16 +70,16 @@ const projectData = [
 	// 	url: "https://sofiadarkeweb.github.io/habit-tracker/",
 	// 	repo: "https://github.com/sofiadarkeweb/habit-tracker", // if no repo, the button will not show up
 	// },
-	{
-		id: "2",
-		img: project2,
-		imgalt: "Sunshine detector website",
-		title: "Sunshine Detector",
-		info: "An Hyper Island student project using APIs and JavaScript. An app telling you how much time is left before sunset and sunrise in your location. CSS animations and colours-modes depending on time of the day. In collaboration with Cecilia Hallerby, Emma Scott-Allen and Alexandra Rzepecka",
-		info2: "HTML | CSS | JavaScript | APIs | Figma",
-		url: "https://finding-daylight.firebaseapp.com/",
-		repo: "https://github.com/sofiadarkeweb/SunshineDetector", // if no repo, the button will not show up
-	},
+	// {
+	// 	id: "2",
+	// 	img: project2,
+	// 	imgalt: "Sunshine detector website",
+	// 	title: "Sunshine Detector",
+	// 	info: "An Hyper Island student project using APIs and JavaScript. An app telling you how much time is left before sunset and sunrise in your location. CSS animations and colours-modes depending on time of the day. In collaboration with Cecilia Hallerby, Emma Scott-Allen and Alexandra Rzepecka",
+	// 	info2: "HTML | CSS | JavaScript | APIs | Figma",
+	// 	url: "https://finding-daylight.firebaseapp.com/",
+	// 	repo: "https://github.com/sofiadarkeweb/SunshineDetector", // if no repo, the button will not show up
+	// },
 	{
 		id: "4",
 		img: project4,

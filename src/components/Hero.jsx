@@ -4,11 +4,9 @@ import "aos/dist/aos.css";
 
 import NavBar from "./NavBar";
 import smiley from "../media/smiley.svg";
-import sofia from "../media/sofia.jpg";
-import { useState, useEffect } from "react";
+import { useEffect } from "react";
 
 const Hero = () => {
-	const [portrait, setPortrait] = useState(false);
 	useEffect(() => {
 		Aos.init({ duration: 2000 });
 	}, []);
@@ -17,20 +15,11 @@ const Hero = () => {
 			<NavBar />
 			<img className="smiley" id="rotate" src={smiley} alt="smiley-animation" />
 			<div className="hero-text">
-				<h1 className="intro-text" data-aos="fade-up">
-					Hej, I am{" "}
-					<span
-						className="text-hiding-portrait"
-						onMouseEnter={() => setPortrait(true)}
-						onMouseLeave={() => setPortrait(false)}
-					>
-						Sofia Darke
-					</span>
-					, a full-stack developer from Stockholm.
-					{portrait && (
-						<img className="portrait" alt="Sofia Darke" src={sofia}></img>
-					)}
-				</h1>
+				<h2 className="intro-text" data-aos="fade-up">
+					<div>sofia darke</div>
+					<div>fullstack developer</div>
+					<div>stockholm - SE</div>
+				</h2>
 
 				<div className="ctas">
 					<a

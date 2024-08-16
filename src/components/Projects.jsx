@@ -20,7 +20,6 @@ function createProject(props) {
 const Projects = (props) => {
 	return (
 		<section id="project-list" className="projects">
-			{/* <h2 className="section-titles">Projects</h2> */}
 			{projectData.map(createProject)}
 		</section>
 	);
