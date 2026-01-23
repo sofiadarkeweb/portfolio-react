@@ -9,7 +9,7 @@ const About = () => {
 				<u>TECH-STACK</u>
 				<br />
 				<br />
-				TypeScript | React | Next.js | Node.js | Dotnet | C# | PostgreSQL |
+				TypeScript | React | Next.js | Node.js | Tanstack Router | Dotnet | C# | PostgreSQL |
 				Google Cloud Platform | Svelte | Express.js | Redux | Redux Tool Kit |
 				Gatsby | Contentful | Figma | Git | Github | MySQL | MongoDB | Mongoose
 				| Vercel | GraphQL
