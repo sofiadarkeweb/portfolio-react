@@ -1,26 +1,34 @@
-import React from "react";
+import React, { useEffect } from "react";
+import Aos from "aos";
+import "aos/dist/aos.css";
 import projectData from "./projectdata";
 import Project from "./Project";
 
-function createProject(props) {
-	return (
-		<Project
-			key={props.id}
-			name={props.title}
-			img={props.img}
-			info={props.info}
-			info2={props.info2}
-			imgalt={props.imgalt}
-			url={props.url}
-			repo={props.repo}
-		/>
-	);
-}
+const Projects = () => {
+	useEffect(() => {
+		Aos.init({ duration: 1000, once: true });
+	}, []);
 
-const Projects = (props) => {
 	return (
 		<section id="project-list" className="projects">
-			{projectData.map(createProject)}
+			<div className="section-header" data-aos="fade-up">
+				<span className="section-label">(SELECTED WORK)</span>
+				<h2 className="section-title">PROJECTS</h2>
+			</div>
+			<div className="project-gallery">
+				{projectData.map((project) => (
+					<Project
+						key={project.id}
+						name={project.title}
+						img={project.img}
+						info={project.info}
+						info2={project.info2}
+						imgalt={project.imgalt}
+						url={project.url}
+						repo={project.repo}
+					/>
+				))}
+			</div>
 		</section>
 	);
 };

@@ -1,13 +1,11 @@
 import React from "react";
-// import Hamburger from "hamburger-react";
-// import { useState } from "react";
 import { Link } from "react-scroll";
 
 const NavBar = () => {
 	return (
-		<nav className="nav-bar">
+		<nav className="nav-left">
 			<Link
-				className="nav-bar-item"
+				className="nav-link"
 				href="/about"
 				activeClass="active"
 				to="about-section"
@@ -15,10 +13,10 @@ const NavBar = () => {
 				smooth={true}
 				duration={700}
 			>
-				about
+				ABOUT
 			</Link>
 			<Link
-				className="nav-bar-item"
+				className="nav-link"
 				href="/work"
 				activeClass="active"
 				to="project-list"
@@ -26,11 +24,10 @@ const NavBar = () => {
 				smooth={true}
 				duration={500}
 			>
-				work
+				WORK
 			</Link>
-
 			<Link
-				className="nav-bar-item"
+				className="nav-link"
 				href="/contact"
 				activeClass="active"
 				to="contact-section"
@@ -38,12 +35,10 @@ const NavBar = () => {
 				smooth={true}
 				duration={1000}
 			>
-				contact
+				CONTACT
 			</Link>
 		</nav>
 	);
-	// const [isOpen, setOpen] = useState(false);
-	// return <Hamburger toggled={isOpen} toggle={setOpen} />;
 };
 
 export default NavBar;
