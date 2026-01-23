@@ -1,4 +1,25 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+
+:root {
+	--bg-cream: #E5E5DB;
+	--accent-red: #E94325;
+	--text-dark: #1a1a1a;
+	
+	/* Theme colors - light mode defaults */
+	--bg-primary: #E5E5DB;
+	--accent-primary: #E94325;
+	--overlay-bg: rgba(229, 229, 219, 0.95);
+	--card-bg: #d5d5cb;
+}
+
+/* Dark mode */
+[data-theme="dark"] {
+	--bg-primary: #1C1917;
+	--accent-primary: #FF6B4A;
+	--overlay-bg: rgba(28, 25, 23, 0.95);
+	--card-bg: #2a2623;
+}
 
 body {
 	margin: 0;
@@ -7,12 +28,19 @@ body {
 		sans-serif;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
-	/* background-color: rgb(255, 127, 80); */
-	background-color: rgb(101, 93, 91);
-	/* background-color: rgb(252, 139, 97); */
+	background-color: var(--bg-primary);
+	color: var(--accent-primary);
+	transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 code {
 	font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
 		monospace;
+}
+
+/* Utility classes for typography */
+.heading-display {
+	font-family: "Bebas Neue", sans-serif;
+	text-transform: uppercase;
+	letter-spacing: 0.02em;
 }
