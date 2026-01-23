@@ -21,16 +21,6 @@
 	--card-bg: #2a2623;
 }
 
-/* System preference detection */
-@media (prefers-color-scheme: dark) {
-	:root:not([data-theme="light"]) {
-		--bg-primary: #1C1917;
-		--accent-primary: #FF6B4A;
-		--overlay-bg: rgba(28, 25, 23, 0.95);
-		--card-bg: #2a2623;
-	}
-}
-
 body {
 	margin: 0;
 	font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
