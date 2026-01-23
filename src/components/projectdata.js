@@ -92,4 +92,4 @@ const projectData = [
 	},
 ];
 
-export default projectData;
+export { projectData };

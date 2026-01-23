@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import Aos from "aos";
 import "aos/dist/aos.css";
 
-const Contact = () => {
+export const Contact = () => {
 	useEffect(() => {
 		Aos.init({ duration: 1000, once: true });
 	}, []);
@@ -44,5 +44,3 @@ const Contact = () => {
 		</section>
 	);
 };
-
-export default Contact;

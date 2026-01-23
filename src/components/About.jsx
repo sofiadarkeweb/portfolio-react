@@ -9,7 +9,7 @@ const techStack = [
 	"Figma", "Git", "Github", "MySQL", "MongoDB", "Mongoose", "Vercel", "GraphQL"
 ];
 
-const About = () => {
+export const About = () => {
 	useEffect(() => {
 		Aos.init({ duration: 1000, once: true });
 	}, []);
@@ -44,5 +44,3 @@ const About = () => {
 		</section>
 	);
 };
-
-export default About;

@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-scroll";
 
-const NavBar = () => {
+export const NavBar = () => {
 	return (
 		<nav className="nav-left">
 			<Link
@@ -40,5 +40,3 @@ const NavBar = () => {
 		</nav>
 	);
 };
-
-export default NavBar;

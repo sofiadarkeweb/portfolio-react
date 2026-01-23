@@ -1,6 +1,6 @@
 import React from "react";
 
-function Project(props) {
+export const Project = (props) => {
 	return (
 		<article className="project-item" data-aos="fade-up">
 			<a 
@@ -37,6 +37,4 @@ function Project(props) {
 			)}
 		</article>
 	);
-}
-
-export default Project;
+};

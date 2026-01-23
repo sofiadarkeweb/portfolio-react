@@ -2,9 +2,9 @@ import React, { useEffect } from "react";
 import Aos from "aos";
 import "aos/dist/aos.css";
 
-import NavBar from "./NavBar";
+import { NavBar } from "./NavBar";
 
-const Hero = () => {
+export const Hero = () => {
 	useEffect(() => {
 		Aos.init({ duration: 1500, once: true });
 	}, []);
@@ -47,5 +47,3 @@ const Hero = () => {
 		</header>
 	);
 };
-
-export default Hero;

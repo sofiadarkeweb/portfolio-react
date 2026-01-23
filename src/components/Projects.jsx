@@ -1,10 +1,10 @@
 import React, { useEffect } from "react";
 import Aos from "aos";
 import "aos/dist/aos.css";
-import projectData from "./projectdata";
-import Project from "./Project";
+import { projectData } from "./projectdata";
+import { Project } from "./Project";
 
-const Projects = () => {
+export const Projects = () => {
 	useEffect(() => {
 		Aos.init({ duration: 1000, once: true });
 	}, []);
@@ -32,5 +32,3 @@ const Projects = () => {
 		</section>
 	);
 };
-
-export default Projects;

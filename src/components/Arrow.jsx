@@ -1,6 +1,6 @@
 import { Link } from "react-scroll";
 
-const Arrow = () => {
+export const Arrow = () => {
 	return (
 		<div className="arrow-fixed">
 			<Link
@@ -17,5 +17,3 @@ const Arrow = () => {
 		</div>
 	);
 };
-
-export default Arrow;
