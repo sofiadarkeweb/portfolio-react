@@ -21,7 +21,7 @@
 .nav-link {
 	font-family: "Bebas Neue", sans-serif;
 	font-size: 0.9rem;
-	color: var(--accent-red);
+	color: var(--accent-primary);
 	text-decoration: none;
 	cursor: pointer;
 	transition: opacity 0.3s ease;
@@ -33,6 +33,34 @@
 }
 
 .nav-link.active {
+	text-decoration: underline;
+	text-underline-offset: 3px;
+}
+
+/* Theme Toggle */
+.theme-toggle {
+	font-family: "Bebas Neue", sans-serif;
+	font-size: 0.9rem;
+	color: var(--accent-primary);
+	background: none;
+	border: none;
+	cursor: pointer;
+	letter-spacing: 0.05em;
+	padding: 0;
+	margin-top: 1rem;
+	transition: opacity 0.3s ease;
+	text-align: left;
+}
+
+.theme-toggle:hover {
+	opacity: 0.6;
+}
+
+.theme-toggle:focus {
+	outline: none;
+}
+
+.theme-toggle:focus-visible {
 	text-decoration: underline;
 	text-underline-offset: 3px;
 }
@@ -61,7 +89,7 @@
 	font-family: "Bebas Neue", sans-serif;
 	font-size: clamp(3rem, 12vw, 10rem);
 	line-height: 0.95;
-	color: var(--accent-red);
+	color: var(--accent-primary);
 	margin-bottom: 4rem;
 }
 
@@ -78,7 +106,7 @@
 	margin: 0 auto;
 	font-family: "Bebas Neue", sans-serif;
 	font-size: 0.85rem;
-	color: var(--accent-red);
+	color: var(--accent-primary);
 	letter-spacing: 0.1em;
 }
 
@@ -101,7 +129,7 @@
 .hero-link {
 	font-family: "Bebas Neue", sans-serif;
 	font-size: 0.9rem;
-	color: var(--accent-red);
+	color: var(--accent-primary);
 	text-decoration: none;
 	letter-spacing: 0.05em;
 	transition: opacity 0.3s ease;
@@ -123,7 +151,7 @@
 .section-label {
 	font-family: "Bebas Neue", sans-serif;
 	font-size: 0.9rem;
-	color: var(--accent-red);
+	color: var(--accent-primary);
 	letter-spacing: 0.1em;
 	display: block;
 	margin-bottom: 1rem;
@@ -132,7 +160,7 @@
 .section-title {
 	font-family: "Bebas Neue", sans-serif;
 	font-size: clamp(2.5rem, 8vw, 6rem);
-	color: var(--accent-red);
+	color: var(--accent-primary);
 	line-height: 1;
 }
 
@@ -167,7 +195,7 @@
 	position: relative;
 	overflow: hidden;
 	aspect-ratio: 16/10;
-	background-color: #d5d5cb;
+	background-color: var(--card-bg);
 }
 
 .project-image {
@@ -180,7 +208,7 @@
 .project-overlay {
 	position: absolute;
 	inset: 0;
-	background: rgba(229, 229, 219, 0.95);
+	background: var(--overlay-bg);
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -201,7 +229,7 @@
 .project-title {
 	font-family: "Bebas Neue", sans-serif;
 	font-size: clamp(1.5rem, 3vw, 2.5rem);
-	color: var(--accent-red);
+	color: var(--accent-primary);
 	margin-bottom: 1rem;
 	text-transform: uppercase;
 }
@@ -209,7 +237,7 @@
 .project-description {
 	font-family: "Inter", sans-serif;
 	font-size: 0.9rem;
-	color: var(--accent-red);
+	color: var(--accent-primary);
 	line-height: 1.6;
 	margin-bottom: 1rem;
 	max-width: 400px;
@@ -218,7 +246,7 @@
 .project-tech {
 	font-family: "Bebas Neue", sans-serif;
 	font-size: 0.8rem;
-	color: var(--accent-red);
+	color: var(--accent-primary);
 	opacity: 0.7;
 	letter-spacing: 0.05em;
 	margin-bottom: 1.5rem;
@@ -231,7 +259,7 @@
 .project-action {
 	font-family: "Bebas Neue", sans-serif;
 	font-size: 1rem;
-	color: var(--accent-red);
+	color: var(--accent-primary);
 	letter-spacing: 0.05em;
 }
 
@@ -240,7 +268,7 @@
 	margin-top: 0.75rem;
 	font-family: "Bebas Neue", sans-serif;
 	font-size: 0.85rem;
-	color: var(--accent-red);
+	color: var(--accent-primary);
 	text-decoration: none;
 	opacity: 0.7;
 	transition: opacity 0.3s ease;
@@ -275,7 +303,7 @@
 .about-statement {
 	font-family: "Bebas Neue", sans-serif;
 	font-size: clamp(2rem, 5vw, 4rem);
-	color: var(--accent-red);
+	color: var(--accent-primary);
 	line-height: 1.1;
 	max-width: 800px;
 }
@@ -287,20 +315,20 @@
 .about-description p {
 	font-family: "Inter", sans-serif;
 	font-size: 1.1rem;
-	color: var(--accent-red);
+	color: var(--accent-primary);
 	line-height: 1.8;
 	max-width: 600px;
 }
 
 .tech-section {
-	border-top: 1px solid var(--accent-red);
+	border-top: 1px solid var(--accent-primary);
 	padding-top: 2rem;
 }
 
 .tech-label {
 	font-family: "Bebas Neue", sans-serif;
 	font-size: 1rem;
-	color: var(--accent-red);
+	color: var(--accent-primary);
 	letter-spacing: 0.1em;
 	display: block;
 	margin-bottom: 1.5rem;
@@ -315,7 +343,7 @@
 .tech-item {
 	font-family: "Inter", sans-serif;
 	font-size: 0.9rem;
-	color: var(--accent-red);
+	color: var(--accent-primary);
 }
 
 /* ==========================================
@@ -338,7 +366,7 @@
 .contact-headline {
 	font-family: "Bebas Neue", sans-serif;
 	font-size: clamp(2.5rem, 10vw, 8rem);
-	color: var(--accent-red);
+	color: var(--accent-primary);
 	line-height: 0.95;
 	margin-bottom: 4rem;
 }
@@ -357,11 +385,11 @@
 .contact-link {
 	font-family: "Bebas Neue", sans-serif;
 	font-size: 1rem;
-	color: var(--accent-red);
+	color: var(--accent-primary);
 	text-decoration: none;
 	letter-spacing: 0.1em;
 	padding-bottom: 0.25rem;
-	border-bottom: 1px solid var(--accent-red);
+	border-bottom: 1px solid var(--accent-primary);
 	transition: opacity 0.3s ease;
 }
 
@@ -375,7 +403,7 @@
 
 .footer {
 	padding: 4rem;
-	border-top: 1px solid var(--accent-red);
+	border-top: 1px solid var(--accent-primary);
 }
 
 .footer-content {
@@ -389,7 +417,7 @@
 .footer-logo {
 	font-family: "Bebas Neue", sans-serif;
 	font-size: clamp(3rem, 8vw, 8rem);
-	color: var(--accent-red);
+	color: var(--accent-primary);
 	line-height: 1;
 }
 
@@ -404,7 +432,7 @@
 .footer-copyright {
 	font-family: "Bebas Neue", sans-serif;
 	font-size: 0.85rem;
-	color: var(--accent-red);
+	color: var(--accent-primary);
 	letter-spacing: 0.1em;
 }
 
@@ -422,7 +450,7 @@
 .arrow-up {
 	width: 0.8rem;
 	height: 0.8rem;
-	border: solid var(--accent-red);
+	border: solid var(--accent-primary);
 	border-width: 0 2px 2px 0;
 	display: inline-block;
 	padding: 0.5rem;
@@ -480,6 +508,11 @@
 
 	.nav-link {
 		font-size: 0.8rem;
+	}
+
+	.theme-toggle {
+		font-size: 0.8rem;
+		margin-top: 0.75rem;
 	}
 
 	.hero-links {

@@ -1,4 +1,5 @@
 import { Link } from 'react-scroll'
+import { ThemeToggle } from './ThemeToggle'
 
 export const NavBar = () => {
   return (
@@ -36,6 +37,7 @@ export const NavBar = () => {
       >
         CONTACT
       </Link>
+      <ThemeToggle />
     </nav>
   )
 }
